@@ -61,22 +61,26 @@ class MainActivity : ComponentActivity() {
 //                        }
 //                    }
 
-                    Box( Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+//                    Box( Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
 //                        MyRadioButtonList(selected) { selected = it }
 //                        MyCard()
 //                        MyDropDownMenu()
 //                        MyBasicSlider()
 //                        MyAdvanceSlider()
 //                        MyRangeSlider()
-                        Button(onClick = { show = true }) {
-                            Text(text = "Mostar dialogo")
-                        }
+//                        Button(onClick = { show = true }) {
+//                            Text(text = "Mostar dialogo")
+//                        }
 //                        MyAlertDialog(show = show, onDismiss = { show = false }, onConfirm = { Log.i("airs", "")})
 //                        MySimpleCustomDialog(show = show, onDismiss = { show = false })
-                        MyCustomDialog(show = show, onDismiss = { show = false })
+//                        MyCustomDialog(show = show, onDismiss = { show = false })
 //                        MyConfirmationDialog(show = show, onDismiss = { show = false })
-                    }
+//                    }
+
+//                    TwitterChallengeResolutionTheme()
+//                    SimpleRecyclerView()
                 }
+                SuperHeroView()
 
             }
         }
